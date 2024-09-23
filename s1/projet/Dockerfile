@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y \
     nodejs \
     npm
 
-COPY sources/douze /app
+COPY sources/12 /app
 
 WORKDIR /app
 
